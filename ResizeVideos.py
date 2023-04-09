@@ -12,7 +12,7 @@ def main(args):
 	sourcefolder = args.input_dir
 	
 	if args.extension:
-		pattern = '*.' + extension
+		pattern = '*.' + args.extension
 	else:
 		pattern = '*.mp4'
 
@@ -39,15 +39,25 @@ def main(args):
 		else:
 			suffix = ''
 
-		destfolder = Path(destinationfolder).joinpath(relativepath)
-		destpath = destfolder.joinpath(stem, suffix).with_suffix(ext)
+		destfolder = PurePath(destinationfolder).joinpath(relativepath)
+		deststem = destfolder.joinpath(stem, suffix)
+		destpath = str(deststem) + ext
+		
+		print(f"ext {ext}")
+		print(f"parentpath {parentpath}")
+		print(f"stem {stem}")
+		print(f"relative {relativepath}")
+		print(f"destfolder {destfolder}")
+		print(f"destpath {destpath}")
 
 		#ffmpeg -i "$f" -vf scale=1080:720 -crf 20 -c:a copy "$OUTPUT_FOLDER/$video"
 
+		command = f"ffmpeg -i '{file}' -vf scale=1080:720 -crf 20 -c:a copy '{destpath}'"
+		print ('Command:' + command)
+
 		if(not args.test):
 			destfolder.mkdir(parents=True, exist_ok=True)
-			command = f"ffmpeg -i '{file}' -vf scale=1080:720 -crf 20 -c:a copy '{destpath}'"
-			print ('Command:' + command)
+
 			os.system(command)
 			
 if __name__ == "__main__":
