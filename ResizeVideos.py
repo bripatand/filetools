@@ -39,16 +39,16 @@ def main(args):
 		else:
 			suffix = ''
 
-		destfolder = PurePath(destinationfolder).joinpath(relativepath)
+		destfolder = Path(destinationfolder).joinpath(relativepath)
 		deststem = destfolder.joinpath(stem, suffix)
 		destpath = str(deststem) + ext
 		
-		print(f"ext {ext}")
-		print(f"parentpath {parentpath}")
-		print(f"stem {stem}")
-		print(f"relative {relativepath}")
-		print(f"destfolder {destfolder}")
-		print(f"destpath {destpath}")
+		#print(f"ext {ext}")
+		#print(f"parentpath {parentpath}")
+		#print(f"stem {stem}")
+		#print(f"relative {relativepath}")
+		#print(f"destfolder {destfolder}")
+		#print(f"destpath {destpath}")
 
 		#ffmpeg -i "$f" -vf scale=1080:720 -crf 20 -c:a copy "$OUTPUT_FOLDER/$video"
 
