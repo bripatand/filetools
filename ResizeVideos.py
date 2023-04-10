@@ -11,12 +11,12 @@ def main(args):
 	#sourcefolder = '/mnt/p/Sports/Fighting/Kravmaga/KravMagaGlobal/KravMagaGlobalFR/KravMagaUniversity'
 	sourcefolder = args.input_dir
 	
-	if args.extension:
-		pattern = '*.' + args.extension
+	if args.filter:
+		filter = args.filter
 	else:
-		pattern = '*.mp4'
+		filter = '*.mp4'
 
-	globarg = sourcefolder + '/**/' + pattern
+	globarg = sourcefolder + '/**/' + filter
 
 	if args.out_folder:
 		destinationfolder = args.out_folder
@@ -39,6 +39,7 @@ def main(args):
 		else:
 			suffix = ''
 
+		# Must use Path and not PurePath to be able to call mkdir method on the object later
 		destfolder = Path(destinationfolder).joinpath(relativepath)
 		deststem = destfolder.joinpath(stem, suffix)
 		destpath = str(deststem) + ext
@@ -65,7 +66,7 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	parser.add_argument("input_dir", help="Location of the input folder.")
 	parser.add_argument("-o", "--out-folder", help="Output folder. Default is same as input.")
-	parser.add_argument("-e", "--extension", help="file extension to look for (default 'mp4').")
+	parser.add_argument("-f", "--filter", help="pattern to filter files (default '*.mp4').")
 	parser.add_argument("-s", "--suffix", help="Suffix added to output filename.")
 	parser.add_argument("-t", "--test", action='store_true', help="just testing.")
 	args = parser.parse_args()
