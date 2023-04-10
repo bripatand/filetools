@@ -44,16 +44,17 @@ def main(args):
 		deststem = destfolder.joinpath(stem, suffix)
 		destpath = str(deststem) + ext
 		
-		#print(f"ext {ext}")
-		#print(f"parentpath {parentpath}")
-		#print(f"stem {stem}")
-		#print(f"relative {relativepath}")
-		#print(f"destfolder {destfolder}")
-		#print(f"destpath {destpath}")
+		print(f"ext {ext}")
+		print(f"parentpath {parentpath}")
+		print(f"stem {stem}")
+		print(f"relative {relativepath}")
+		print(f"destfolder {destfolder}")
+		print(f"destpath {destpath}")
 
 		#ffmpeg -i "$f" -vf scale=1080:720 -crf 20 -c:a copy "$OUTPUT_FOLDER/$video"
 
-		command = f"ffmpeg -i '{file}' -vf scale=1080:720 -crf 20 -c:a copy '{destpath}'"
+		# Use single quote and double quote inside as some path/filename can contain single quote
+		command = f'ffmpeg -i "{file}" -vf scale=1080:720 -crf 20 -c:a copy "{destpath}"'
 		print ('Command:' + command)
 
 		if(not args.test):
