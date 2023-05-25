@@ -54,7 +54,7 @@ def main(args):
 		#ffmpeg -i "$f" -vf scale=1080:720 -crf 20 -c:a copy "$OUTPUT_FOLDER/$video"
 
 		# Use single quote and double quote inside as some path/filename can contain single quote
-		command = f'ffmpeg -i "{file}" -vf scale=1080:720 -crf 20 -c:a copy "{destpath}"'
+		command = f'ffmpeg -i "{file}" -vf scale=1280:720 -crf 20 -c:a copy "{destpath}"'
 		print ('Command:' + command)
 
 		if(not args.test):
