@@ -2,16 +2,18 @@ import os
 import re
 from pathlib import Path
 
-# Must map NUC druve with command: sudo mount -t cifs -o user=web,pass=***** //NUC/samba/MEDIA /mnt/nuc
+# IMPORTANT: 
+# You must map NUC drive: 
+# sudo apt update; sudo apt install cifs-utils
+# mkdir /mnt/nuc
+# sudo mount -t cifs -o user=web,pass=abs0lute //NUC/samba/MEDIA /mnt/nuc
 
 real = 1
 
-rootpath = '/mnt/nuc/Series/Luther.S01.1080p.BluRay.x265-RARBG'
+rootpath = '/mnt/nuc/Series/Lie To Me/Lie To Me Season 3/Subs'
 
-#rootpath = '/mnt/t/ToBeDeleted'
-
-file2primaryfind = '3_English.srt'
-file2secondaryfind = '2_English.srt'
+file2primaryfind = '2_English.srt'
+file2secondaryfind = '3_English.srt'
 
 matchPrimary = re.compile(file2primaryfind)
 matchSecondary = re.compile(file2secondaryfind)
@@ -19,8 +21,8 @@ matchSecondary = re.compile(file2secondaryfind)
 for path,dirs,files in os.walk(rootpath):
 
 	for dir in dirs:
-		#print('path:' + path)
-		#print('dir:' + dir)
+		print('path:' + path)
+		print('dir:' + dir)
 		
 		fileSource = os.path.join(path, dir, file2primaryfind)
 
@@ -42,6 +44,5 @@ for path,dirs,files in os.walk(rootpath):
 
 			print ('Rename ' + fileSource + ' To ' + fileDest)
 				
-			if real:
-				
+			if real:			
 				os.rename(fileSource, fileDest)
