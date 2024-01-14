@@ -8,7 +8,7 @@ import argparse
 
 def main(args):
 
-	#sourcefolder = '/mnt/p/Sports/Fighting/Kravmaga/KravMagaGlobal/KravMagaGlobalFR/KravMagaUniversity'
+	#sourcefolder = '/mnt/d/TEMP/Jean Michel Jarre - Les chants magnétiques'
 	sourcefolder = args.input_dir
 	
 	if args.filter:
