@@ -1,0 +1,618 @@
+{
+    "clip_id": "cd3cbf9a-dfd7-4ff9-bdb6-73ef459faf83",
+    "base_url": "../../../../../",
+    "video": [
+        {
+            "id": "1263019e-5d9d-4edb-9458-cb6994e652f5",
+            "avg_id": "cd3cbf9a",
+            "base_url": "range/prot/",
+            "format": "dash",
+            "mime_type": "video/mp4",
+            "codecs": "avc1.64002A",
+            "bitrate": 4637000,
+            "avg_bitrate": 4024000,
+            "duration": 44.5445,
+            "framerate": 23.976023976023978,
+            "width": 1920,
+            "height": 1080,
+            "max_segment_duration": 6,
+            "init_segment": "AAAAIGZ0eXBkYXNoAAAAAGRhc2htcDQybXA0MWlzbzYAAAMhbW9vdgAAAGxtdmhkAAAAAN8z507fM+dOAABdwAAAAAAAAQAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAACFpb2RzAAAAABCAgIAQAE////9//w6AgIAEAAAAAQAAAlB0cmFrAAAAXHRraGQAAAAH3zPnTt8z504AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAB4AAAAQ4AAAAAAAkZWR0cwAAABxlbHN0AAAAAAAAAAEAAAAAAAALuwABAAAAAAHIbWRpYQAAACBtZGhkAAAAAN8z507fM+dOAABdwAAAAABVxAAAAAAANmhkbHIAAAAAAAAAAHZpZGUAAAAAAAAAAAAAAABMLVNNQVNIIFZpZGVvIEhhbmRsZXIAAAABam1pbmYAAAAUdm1oZAAAAAEAAAAAAAAAAAAAACRkaW5mAAAAHGRyZWYAAAAAAAAAAQAAAAx1cmwgAAAAAQAAASpzdGJsAAAAsnN0c2QAAAAAAAAAAQAAAKJhdmMxAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAB4AEOABIAAAASAAAAAAAAAABCkFWQyBDb2RpbmcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAOWF2Y0MBZAAq/+EAHWdkACqs2YB4AiflmoCAgKAAAAMAIAAXcAHjBjNAAQAFaOl7LIv9+PgAAAAAE2NvbHJuY2x4AAEAAQABAAAAABBzdHRzAAAAAAAAAAAAAAAQc3RzYwAAAAAAAAAAAAAAFHN0c3oAAAAAAAAAAAAAAAAAAAAQc3RjbwAAAAAAAAAAAAAAGHNncGQBAAAAcm9sbAAAAAIAAAAAAAAAFHNiZ3AAAAAAcm9sbAAAAAAAAAA8bXZleAAAABRtZWhkAQAAAAAAAAAAEFAMAAAAIHRyZXgAAAAAAAAAAQAAAAEAAAABAAAAAAABAAA=",
+            "init_segment_url": "",
+            "index_segment": "cmFuZ2U9ODMzLTk2MA/avf/1263019e-5d9d-4edb-9458-cb6994e652f5.mp4?pathsig=8c953e4f~ry7WQa8m72lP4Y8rJM6fEiEfZa3tVkzART2Z-vCxFuY\u0026r=dXMtY2VudHJhbDE%3D\u0026range=833-960",
+            "segments": [
+                {
+                    "start": 0,
+                    "end": 6.006,
+                    "url": "cmFuZ2U9OTYxLTIzNTczODU/avf/1263019e-5d9d-4edb-9458-cb6994e652f5.mp4?pathsig=8c953e4f~bt6wIFYaobiNRzujOr8GHZWsQScRqyIN4gNtV5e7Uug\u0026r=dXMtY2VudHJhbDE%3D\u0026range=961-2357385",
+                    "size": 2356424
+                },
+                {
+                    "start": 6.006,
+                    "end": 12.012,
+                    "url": "cmFuZ2U9MjM1NzM4Ni01NzcxODc3/avf/1263019e-5d9d-4edb-9458-cb6994e652f5.mp4?pathsig=8c953e4f~p-RgiIHxwf7FxoMXweEYhcU2u8Zxd835V0qQn8I3o7M\u0026r=dXMtY2VudHJhbDE%3D\u0026range=2357386-5771877",
+                    "size": 3414491
+                },
+                {
+                    "start": 12.012,
+                    "end": 18.018,
+                    "url": "cmFuZ2U9NTc3MTg3OC05MjkyMjY0/avf/1263019e-5d9d-4edb-9458-cb6994e652f5.mp4?pathsig=8c953e4f~GFzgPz14kX3sV0Y_1J5VG02QjfmzZkqw8e5ITj0Lz0s\u0026r=dXMtY2VudHJhbDE%3D\u0026range=5771878-9292264",
+                    "size": 3520386
+                },
+                {
+                    "start": 18.018,
+                    "end": 24.024,
+                    "url": "cmFuZ2U9OTI5MjI2NS0xMjYxNjE3Mw/avf/1263019e-5d9d-4edb-9458-cb6994e652f5.mp4?pathsig=8c953e4f~WfT5JOqdOeMQrfINSIjNhcdgnxFIbpf_baVx_M1Z1FY\u0026r=dXMtY2VudHJhbDE%3D\u0026range=9292265-12616173",
+                    "size": 3323908
+                },
+                {
+                    "start": 24.024,
+                    "end": 30.03,
+                    "url": "cmFuZ2U9MTI2MTYxNzQtMTYwMzIwNDE/avf/1263019e-5d9d-4edb-9458-cb6994e652f5.mp4?pathsig=8c953e4f~RUXMwirpIPJ6lqaUeLZ9yb-zEjbwwBmKDlVq9duX4MU\u0026r=dXMtY2VudHJhbDE%3D\u0026range=12616174-16032041",
+                    "size": 3415867
+                },
+                {
+                    "start": 30.03,
+                    "end": 36.036,
+                    "url": "cmFuZ2U9MTYwMzIwNDItMTk1MzU5MzU/avf/1263019e-5d9d-4edb-9458-cb6994e652f5.mp4?pathsig=8c953e4f~GHB3T0o2i1nSwgbcvKu_8tgFou8D34B1tfmtahf22c0\u0026r=dXMtY2VudHJhbDE%3D\u0026range=16032042-19535935",
+                    "size": 3503893
+                },
+                {
+                    "start": 36.036,
+                    "end": 42.042,
+                    "url": "cmFuZ2U9MTk1MzU5MzYtMjMwNTg4NDc/avf/1263019e-5d9d-4edb-9458-cb6994e652f5.mp4?pathsig=8c953e4f~FjKQYyWWxd9nLyJbqqEJOJwyMwBouW5s3W3bKegE_8k\u0026r=dXMtY2VudHJhbDE%3D\u0026range=19535936-23058847",
+                    "size": 3522911
+                },
+                {
+                    "start": 42.042,
+                    "end": 44.5445,
+                    "url": "cmFuZ2U9MjMwNTg4NDgtMjM1MjExNTg/avf/1263019e-5d9d-4edb-9458-cb6994e652f5.mp4?pathsig=8c953e4f~80qNtMCejfc0nbqVZ0GCb7fNiOuv5sVbFI7dOrB9o_4\u0026r=dXMtY2VudHJhbDE%3D\u0026range=23058848-23521158",
+                    "size": 462310
+                }
+            ]
+        },
+        {
+            "id": "1373dab4-3926-4063-b2ed-918824411df8",
+            "avg_id": "cd3cbf9a",
+            "base_url": "remux/avf/1373dab4-3926-4063-b2ed-918824411df8/",
+            "format": "mp42",
+            "mime_type": "video/mp4",
+            "codecs": "avc1.64001E",
+            "bitrate": 432000,
+            "avg_bitrate": 369000,
+            "duration": 44.5445,
+            "framerate": 23.976023976023978,
+            "width": 640,
+            "height": 360,
+            "max_segment_duration": 6,
+            "init_segment": "AAAAHGZ0eXBpc281AAACAGlzbzVpc282bXA0MQAAAyttb292AAAAbG12aGQAAAAAAAAAAAAAAAAAAAPoAAAAAAABAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACLnRyYWsAAABcdGtoZAAAAAMAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAACgAAAAWgAAAAAACRlZHRzAAAAHGVsc3QAAAAAAAAAAQAAAAAAAAfSAAEAAAAAAaZtZGlhAAAAIG1kaGQAAAAAAAAAAAAAAAAAAF3AAAAAAFXEAAAAAAAtaGRscgAAAAAAAAAAdmlkZQAAAAAAAAAAAAAAAFZpZGVvSGFuZGxlcgAAAAFRbWluZgAAABR2bWhkAAAAAQAAAAAAAAAAAAAAJGRpbmYAAAAcZHJlZgAAAAAAAAABAAAADHVybCAAAAABAAABEXN0YmwAAADFc3RzZAAAAAAAAAABAAAAtWF2YzEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAACgAFoAEgAAABIAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY//8AAAA4YXZjQwFkAB7/4QAcZ2QAHqzZQKAv+WagwMDIAAADAAgABdwAeLFssAEABWjr7LIs/fj4AAAAABNjb2xybmNseAAGAAYABgAAAAAUYnRydAAAAAAABc2PAAXNjwAAABBzdHRzAAAAAAAAAAAAAAAQc3RzYwAAAAAAAAAAAAAAFHN0c3oAAAAAAAAAAAAAAAAAAAAQc3RjbwAAAAAAAAAAAAAAKG12ZXgAAAAgdHJleAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAGF1ZHRhAAAAWW1ldGEAAAAAAAAAIWhkbHIAAAAAAAAAAG1kaXJhcHBsAAAAAAAAAAAAAAAALGlsc3QAAAAkqXRvbwAAABxkYXRhAAAAAQAAAABMYXZmNjEuOS4xMDQ=",
+            "init_segment_url": "",
+            "segments": [
+                {
+                    "start": 0,
+                    "end": 6.006,
+                    "url": "segment.m4s?pathsig=8c953e4f~xvWLbx1P2NBVMLg22nwF5xmmtiUUeaOWLpB9ShssS0g\u0026r=dXM%3D\u0026sid=1\u0026st=video",
+                    "size": 246317
+                },
+                {
+                    "start": 6.006,
+                    "end": 12.012,
+                    "url": "segment.m4s?pathsig=8c953e4f~xvWLbx1P2NBVMLg22nwF5xmmtiUUeaOWLpB9ShssS0g\u0026r=dXM%3D\u0026sid=2\u0026st=video",
+                    "size": 286945
+                },
+                {
+                    "start": 12.012,
+                    "end": 18.018,
+                    "url": "segment.m4s?pathsig=8c953e4f~xvWLbx1P2NBVMLg22nwF5xmmtiUUeaOWLpB9ShssS0g\u0026r=dXM%3D\u0026sid=3\u0026st=video",
+                    "size": 325781
+                },
+                {
+                    "start": 18.018,
+                    "end": 24.024,
+                    "url": "segment.m4s?pathsig=8c953e4f~xvWLbx1P2NBVMLg22nwF5xmmtiUUeaOWLpB9ShssS0g\u0026r=dXM%3D\u0026sid=4\u0026st=video",
+                    "size": 260893
+                },
+                {
+                    "start": 24.024,
+                    "end": 30.03,
+                    "url": "segment.m4s?pathsig=8c953e4f~xvWLbx1P2NBVMLg22nwF5xmmtiUUeaOWLpB9ShssS0g\u0026r=dXM%3D\u0026sid=5\u0026st=video",
+                    "size": 296015
+                },
+                {
+                    "start": 30.03,
+                    "end": 36.036,
+                    "url": "segment.m4s?pathsig=8c953e4f~xvWLbx1P2NBVMLg22nwF5xmmtiUUeaOWLpB9ShssS0g\u0026r=dXM%3D\u0026sid=6\u0026st=video",
+                    "size": 324605
+                },
+                {
+                    "start": 36.036,
+                    "end": 42.042,
+                    "url": "segment.m4s?pathsig=8c953e4f~xvWLbx1P2NBVMLg22nwF5xmmtiUUeaOWLpB9ShssS0g\u0026r=dXM%3D\u0026sid=7\u0026st=video",
+                    "size": 351916
+                },
+                {
+                    "start": 42.042,
+                    "end": 44.5445,
+                    "url": "segment.m4s?pathsig=8c953e4f~xvWLbx1P2NBVMLg22nwF5xmmtiUUeaOWLpB9ShssS0g\u0026r=dXM%3D\u0026sid=8\u0026st=video",
+                    "size": 52004
+                }
+            ]
+        },
+        {
+            "id": "f7a34dbe-225f-46ef-b825-7d90b979ba7e",
+            "avg_id": "cd3cbf9a",
+            "base_url": "range/prot/",
+            "format": "dash",
+            "mime_type": "video/mp4",
+            "codecs": "avc1.640020",
+            "bitrate": 1570000,
+            "avg_bitrate": 1394000,
+            "duration": 44.5445,
+            "framerate": 23.976023976023978,
+            "width": 1280,
+            "height": 720,
+            "max_segment_duration": 6,
+            "init_segment": "AAAAIGZ0eXBkYXNoAAAAAGRhc2htcDQybXA0MWlzbzYAAAMfbW9vdgAAAGxtdmhkAAAAAN8z5tXfM+bVAABdwAAAAAAAAQAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAACFpb2RzAAAAABCAgIAQAE////9//w6AgIAEAAAAAQAAAk50cmFrAAAAXHRraGQAAAAH3zPm1d8z5tUAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAABQAAAALQAAAAAAAkZWR0cwAAABxlbHN0AAAAAAAAAAEAAAAAAAALuwABAAAAAAHGbWRpYQAAACBtZGhkAAAAAN8z5tXfM+bVAABdwAAAAABVxAAAAAAANmhkbHIAAAAAAAAAAHZpZGUAAAAAAAAAAAAAAABMLVNNQVNIIFZpZGVvIEhhbmRsZXIAAAABaG1pbmYAAAAUdm1oZAAAAAEAAAAAAAAAAAAAACRkaW5mAAAAHGRyZWYAAAAAAAAAAQAAAAx1cmwgAAAAAQAAAShzdGJsAAAAsHN0c2QAAAAAAAAAAQAAAKBhdmMxAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABQAC0ABIAAAASAAAAAAAAAABCkFWQyBDb2RpbmcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAN2F2Y0MBZAAg/+EAG2dkACCs2YBQBbpqAgICgAAAAwCAAF3AB4wYzQEABWjpeyyL/fj4AAAAABNjb2xybmNseAABAAEAAQAAAAAQc3R0cwAAAAAAAAAAAAAAEHN0c2MAAAAAAAAAAAAAABRzdHN6AAAAAAAAAAAAAAAAAAAAEHN0Y28AAAAAAAAAAAAAABhzZ3BkAQAAAHJvbGwAAAACAAAAAAAAABRzYmdwAAAAAHJvbGwAAAAAAAAAPG12ZXgAAAAUbWVoZAEAAAAAAAAAABBQDAAAACB0cmV4AAAAAAAAAAEAAAABAAAAAQAAAAAAAQAA",
+            "init_segment_url": "",
+            "index_segment": "cmFuZ2U9ODMxLTk1OA/avf/f7a34dbe-225f-46ef-b825-7d90b979ba7e.mp4?pathsig=8c953e4f~y-dEw8m-c8OX31Y0KeQSeqJpdytiw0ZEnOxX1s65gMY\u0026r=dXMtd2VzdDE%3D\u0026range=831-958",
+            "segments": [
+                {
+                    "start": 0,
+                    "end": 6.006,
+                    "url": "cmFuZ2U9OTU5LTkxODQ0OQ/avf/f7a34dbe-225f-46ef-b825-7d90b979ba7e.mp4?pathsig=8c953e4f~_q-PiqUP75fjbj8Q60zKtA4qABDRcNCYNfjSkv1f7wM\u0026r=dXMtd2VzdDE%3D\u0026range=959-918449",
+                    "size": 917490
+                },
+                {
+                    "start": 6.006,
+                    "end": 12.012,
+                    "url": "cmFuZ2U9OTE4NDUwLTIwMDcwNzg/avf/f7a34dbe-225f-46ef-b825-7d90b979ba7e.mp4?pathsig=8c953e4f~aYFgukOsUAcYEppvEwbYoV3_cYqdi9Pher8LJw75OB4\u0026r=dXMtd2VzdDE%3D\u0026range=918450-2007078",
+                    "size": 1088628
+                },
+                {
+                    "start": 12.012,
+                    "end": 18.018,
+                    "url": "cmFuZ2U9MjAwNzA3OS0zMTgzNzM0/avf/f7a34dbe-225f-46ef-b825-7d90b979ba7e.mp4?pathsig=8c953e4f~bmWPAa3POKRErgo9z9AAZtP9g9C9pkh7C0j7Qz0Ky5s\u0026r=dXMtd2VzdDE%3D\u0026range=2007079-3183734",
+                    "size": 1176655
+                },
+                {
+                    "start": 18.018,
+                    "end": 24.024,
+                    "url": "cmFuZ2U9MzE4MzczNS00MjI4MTU4/avf/f7a34dbe-225f-46ef-b825-7d90b979ba7e.mp4?pathsig=8c953e4f~gfIk8y6FgB17eOn7QEd5xnrZoEdr-G7bY9oKIfl4IvQ\u0026r=dXMtd2VzdDE%3D\u0026range=3183735-4228158",
+                    "size": 1044423
+                },
+                {
+                    "start": 24.024,
+                    "end": 30.03,
+                    "url": "cmFuZ2U9NDIyODE1OS01MzU3ODU0/avf/f7a34dbe-225f-46ef-b825-7d90b979ba7e.mp4?pathsig=8c953e4f~mB_hEiKmBQYBR45-H6LvCjqIMlWaRwBbF-afzfmTosY\u0026r=dXMtd2VzdDE%3D\u0026range=4228159-5357854",
+                    "size": 1129695
+                },
+                {
+                    "start": 30.03,
+                    "end": 36.036,
+                    "url": "cmFuZ2U9NTM1Nzg1NS02NTI5MTg3/avf/f7a34dbe-225f-46ef-b825-7d90b979ba7e.mp4?pathsig=8c953e4f~4W8b4BHvCd0cjsZDURbQP4SpH0i9ZqIL4b0IC5k5vhM\u0026r=dXMtd2VzdDE%3D\u0026range=5357855-6529187",
+                    "size": 1171332
+                },
+                {
+                    "start": 36.036,
+                    "end": 42.042,
+                    "url": "cmFuZ2U9NjUyOTE4OC03NzY1MTQ0/avf/f7a34dbe-225f-46ef-b825-7d90b979ba7e.mp4?pathsig=8c953e4f~KoiClzd53YpsH5eVL6f_eO74m_BgbCd375sbNXf9t0Y\u0026r=dXMtd2VzdDE%3D\u0026range=6529188-7765144",
+                    "size": 1235956
+                },
+                {
+                    "start": 42.042,
+                    "end": 44.5445,
+                    "url": "cmFuZ2U9Nzc2NTE0NS04MDE5Mjg0/avf/f7a34dbe-225f-46ef-b825-7d90b979ba7e.mp4?pathsig=8c953e4f~Hl5ho2FErl77rHW6kHvAV409wM9o_pGXFAdees8YfZM\u0026r=dXMtd2VzdDE%3D\u0026range=7765145-8019284",
+                    "size": 254139
+                }
+            ]
+        },
+        {
+            "id": "2fd9cb09-c769-4b77-9b3c-89d59fdefea1",
+            "avg_id": "cd3cbf9a",
+            "base_url": "range/prot/",
+            "format": "dash",
+            "mime_type": "video/mp4",
+            "codecs": "avc1.64001F",
+            "bitrate": 935000,
+            "avg_bitrate": 825000,
+            "duration": 44.5445,
+            "framerate": 23.976023976023978,
+            "width": 960,
+            "height": 540,
+            "max_segment_duration": 6,
+            "init_segment": "AAAAIGZ0eXBkYXNoAAAAAGRhc2htcDQybXA0MWlzbzYAAAMibW9vdgAAAGxtdmhkAAAAAN8z5sTfM+bEAABdwAAAAAAAAQAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAACFpb2RzAAAAABCAgIAQAE////9//w6AgIAEAAAAAQAAAlF0cmFrAAAAXHRraGQAAAAH3zPmxN8z5sQAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAA8AAAAIcAAAAAAAkZWR0cwAAABxlbHN0AAAAAAAAAAEAAAAAAAALuwABAAAAAAHJbWRpYQAAACBtZGhkAAAAAN8z5sTfM+bEAABdwAAAAABVxAAAAAAANmhkbHIAAAAAAAAAAHZpZGUAAAAAAAAAAAAAAABMLVNNQVNIIFZpZGVvIEhhbmRsZXIAAAABa21pbmYAAAAUdm1oZAAAAAEAAAAAAAAAAAAAACRkaW5mAAAAHGRyZWYAAAAAAAAAAQAAAAx1cmwgAAAAAQAAAStzdGJsAAAAs3N0c2QAAAAAAAAAAQAAAKNhdmMxAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA8ACHABIAAAASAAAAAAAAAABCkFWQyBDb2RpbmcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAOmF2Y0MBZAAf/+EAHWdkAB+sViQPARfuagwMDIAAAAMAgABdwAeMGMTAAQAGaOiOyyLA/fj4AAAAABNjb2xybmNseAAGAAYABgAAAAAQc3R0cwAAAAAAAAAAAAAAEHN0c2MAAAAAAAAAAAAAABRzdHN6AAAAAAAAAAAAAAAAAAAAEHN0Y28AAAAAAAAAAAAAABhzZ3BkAQAAAHJvbGwAAAACAAAAAAAAABRzYmdwAAAAAHJvbGwAAAAAAAAAPG12ZXgAAAAUbWVoZAEAAAAAAAAAABBQDAAAACB0cmV4AAAAAAAAAAEAAAABAAAAAQAAAAAAAQAA",
+            "init_segment_url": "",
+            "index_segment": "cmFuZ2U9ODM0LTk2MQ/avf/2fd9cb09-c769-4b77-9b3c-89d59fdefea1.mp4?pathsig=8c953e4f~yWOxKg09mVHnsuBZzyGm80-bjHQNtAswGPfms6QpnjY\u0026r=dXMtZWFzdDE%3D\u0026range=834-961",
+            "segments": [
+                {
+                    "start": 0,
+                    "end": 6.006,
+                    "url": "cmFuZ2U9OTYyLTU4MDIyMg/avf/2fd9cb09-c769-4b77-9b3c-89d59fdefea1.mp4?pathsig=8c953e4f~9PEvr32g2EDXVRnq0UsI_sccsBiCFl8F1mn5Ney607I\u0026r=dXMtZWFzdDE%3D\u0026range=962-580222",
+                    "size": 579260
+                },
+                {
+                    "start": 6.006,
+                    "end": 12.012,
+                    "url": "cmFuZ2U9NTgwMjIzLTEyMTE0ODg/avf/2fd9cb09-c769-4b77-9b3c-89d59fdefea1.mp4?pathsig=8c953e4f~ifDvroWO2vgZ5t0vhUBGiWLWzMRLyR9RuQYt2_xgJi4\u0026r=dXMtZWFzdDE%3D\u0026range=580223-1211488",
+                    "size": 631265
+                },
+                {
+                    "start": 12.012,
+                    "end": 18.018,
+                    "url": "cmFuZ2U9MTIxMTQ4OS0xOTA5Mjgw/avf/2fd9cb09-c769-4b77-9b3c-89d59fdefea1.mp4?pathsig=8c953e4f~Ae3ItCzschMMUEWH5ASAn9YrD_2iQTekN1gVSN184QA\u0026r=dXMtZWFzdDE%3D\u0026range=1211489-1909280",
+                    "size": 697791
+                },
+                {
+                    "start": 18.018,
+                    "end": 24.024,
+                    "url": "cmFuZ2U9MTkwOTI4MS0yNTE5NDc0/avf/2fd9cb09-c769-4b77-9b3c-89d59fdefea1.mp4?pathsig=8c953e4f~BsU6P4NO6NTmWQZygkfDyyxpYV5NcpPg7i-PDcV8EC4\u0026r=dXMtZWFzdDE%3D\u0026range=1909281-2519474",
+                    "size": 610193
+                },
+                {
+                    "start": 24.024,
+                    "end": 30.03,
+                    "url": "cmFuZ2U9MjUxOTQ3NS0zMTc4OTA0/avf/2fd9cb09-c769-4b77-9b3c-89d59fdefea1.mp4?pathsig=8c953e4f~AOQFpPrUkS0dDJSzPpLA2OazzS2JX-vbfLUJRi-PoV0\u0026r=dXMtZWFzdDE%3D\u0026range=2519475-3178904",
+                    "size": 659429
+                },
+                {
+                    "start": 30.03,
+                    "end": 36.036,
+                    "url": "cmFuZ2U9MzE3ODkwNS0zODc0MjYx/avf/2fd9cb09-c769-4b77-9b3c-89d59fdefea1.mp4?pathsig=8c953e4f~81bruT8KbV79kLJNqOHjh2mOPab-uty_WtDq8MWF0sU\u0026r=dXMtZWFzdDE%3D\u0026range=3178905-3874261",
+                    "size": 695356
+                },
+                {
+                    "start": 36.036,
+                    "end": 42.042,
+                    "url": "cmFuZ2U9Mzg3NDI2Mi00NjI1MjQw/avf/2fd9cb09-c769-4b77-9b3c-89d59fdefea1.mp4?pathsig=8c953e4f~z7DfJNiU-rZTMgYd1d1Yu9XRJoofOJKHjSnRwalHil8\u0026r=dXMtZWFzdDE%3D\u0026range=3874262-4625240",
+                    "size": 750978
+                },
+                {
+                    "start": 42.042,
+                    "end": 44.5445,
+                    "url": "cmFuZ2U9NDYyNTI0MS00NzYzNjMz/avf/2fd9cb09-c769-4b77-9b3c-89d59fdefea1.mp4?pathsig=8c953e4f~alQn3QtG_heSkf3WDaBRCDfI9d31s_kPx4-gnlsDBxU\u0026r=dXMtZWFzdDE%3D\u0026range=4625241-4763633",
+                    "size": 138392
+                }
+            ]
+        },
+        {
+            "id": "d69aeb2e-499f-47a8-b0aa-efd0bab5629b",
+            "avg_id": "cd3cbf9a",
+            "base_url": "range/prot/",
+            "format": "dash",
+            "mime_type": "video/mp4",
+            "codecs": "avc1.640015",
+            "bitrate": 205000,
+            "avg_bitrate": 180000,
+            "duration": 44.5445,
+            "framerate": 23.976023976023978,
+            "width": 426,
+            "height": 240,
+            "max_segment_duration": 6,
+            "init_segment": "AAAAIGZ0eXBkYXNoAAAAAGRhc2htcDQybXA0MWlzbzYAAAMhbW9vdgAAAGxtdmhkAAAAAN8z5vffM+b3AABdwAAAAAAAAQAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAACFpb2RzAAAAABCAgIAQAE////9//w6AgIAEAAAAAQAAAlB0cmFrAAAAXHRraGQAAAAH3zPm998z5vcAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAaoAAADwAAAAAAAkZWR0cwAAABxlbHN0AAAAAAAAAAEAAAAAAAALuwABAAAAAAHIbWRpYQAAACBtZGhkAAAAAN8z5vffM+b3AABdwAAAAABVxAAAAAAANmhkbHIAAAAAAAAAAHZpZGUAAAAAAAAAAAAAAABMLVNNQVNIIFZpZGVvIEhhbmRsZXIAAAABam1pbmYAAAAUdm1oZAAAAAEAAAAAAAAAAAAAACRkaW5mAAAAHGRyZWYAAAAAAAAAAQAAAAx1cmwgAAAAAQAAASpzdGJsAAAAsnN0c2QAAAAAAAAAAQAAAKJhdmMxAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAaoA8ABIAAAASAAAAAAAAAABCkFWQyBDb2RpbmcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAOWF2Y0MBZAAV/+EAHGdkABWsViQbH+TmoMDAyAAAAwAIAAXcAHixbEwBAAZo6I7LIsD9+PgAAAAAE2NvbHJuY2x4AAYABgAGAAAAABBzdHRzAAAAAAAAAAAAAAAQc3RzYwAAAAAAAAAAAAAAFHN0c3oAAAAAAAAAAAAAAAAAAAAQc3RjbwAAAAAAAAAAAAAAGHNncGQBAAAAcm9sbAAAAAIAAAAAAAAAFHNiZ3AAAAAAcm9sbAAAAAAAAAA8bXZleAAAABRtZWhkAQAAAAAAAAAAEFAMAAAAIHRyZXgAAAAAAAAAAQAAAAEAAAABAAAAAAABAAA=",
+            "init_segment_url": "",
+            "index_segment": "cmFuZ2U9ODMzLTk2MA/avf/d69aeb2e-499f-47a8-b0aa-efd0bab5629b.mp4?pathsig=8c953e4f~gmK5-OCJYgMXHUvS0n3oWIzUAFxV3kIL2Rjn_-b6RGo\u0026r=dXMtd2VzdDE%3D\u0026range=833-960",
+            "segments": [
+                {
+                    "start": 0,
+                    "end": 6.006,
+                    "url": "cmFuZ2U9OTYxLTE0MDk1Ng/avf/d69aeb2e-499f-47a8-b0aa-efd0bab5629b.mp4?pathsig=8c953e4f~z8isYSCQA7k8yHG3BW3elPNZRkWwYwzlGnAImCcRJhw\u0026r=dXMtd2VzdDE%3D\u0026range=961-140956",
+                    "size": 139995
+                },
+                {
+                    "start": 6.006,
+                    "end": 12.012,
+                    "url": "cmFuZ2U9MTQwOTU3LTI3MzcxMg/avf/d69aeb2e-499f-47a8-b0aa-efd0bab5629b.mp4?pathsig=8c953e4f~_Qx-p9gGOeD4v4Tk3Lp5Z9u00CwZQo7U1BsCVB5uDCQ\u0026r=dXMtd2VzdDE%3D\u0026range=140957-273712",
+                    "size": 132755
+                },
+                {
+                    "start": 12.012,
+                    "end": 18.018,
+                    "url": "cmFuZ2U9MjczNzEzLTQyODUzOA/avf/d69aeb2e-499f-47a8-b0aa-efd0bab5629b.mp4?pathsig=8c953e4f~wwBp1RS-DQaIX3ESpqku5gKHop1lLsh5ARTM0kbiimw\u0026r=dXMtd2VzdDE%3D\u0026range=273713-428538",
+                    "size": 154825
+                },
+                {
+                    "start": 18.018,
+                    "end": 24.024,
+                    "url": "cmFuZ2U9NDI4NTM5LTU1MTIxNA/avf/d69aeb2e-499f-47a8-b0aa-efd0bab5629b.mp4?pathsig=8c953e4f~uRPa6LXzXzV_LeIDAtLx7m9Y6jFIectLX_VP7GxG8FM\u0026r=dXMtd2VzdDE%3D\u0026range=428539-551214",
+                    "size": 122675
+                },
+                {
+                    "start": 24.024,
+                    "end": 30.03,
+                    "url": "cmFuZ2U9NTUxMjE1LTY4Njc3Nw/avf/d69aeb2e-499f-47a8-b0aa-efd0bab5629b.mp4?pathsig=8c953e4f~fJoVv_ya9-5MoayghOE5Pdw21qrG5iU8Nf5-dOXBb7g\u0026r=dXMtd2VzdDE%3D\u0026range=551215-686777",
+                    "size": 135562
+                },
+                {
+                    "start": 30.03,
+                    "end": 36.036,
+                    "url": "cmFuZ2U9Njg2Nzc4LTg0MjIxNA/avf/d69aeb2e-499f-47a8-b0aa-efd0bab5629b.mp4?pathsig=8c953e4f~zFs9IeItSXqVnfqXYEW9huSPQ6y9-c8G0msoWoB2Bh0\u0026r=dXMtd2VzdDE%3D\u0026range=686778-842214",
+                    "size": 155436
+                },
+                {
+                    "start": 36.036,
+                    "end": 42.042,
+                    "url": "cmFuZ2U9ODQyMjE1LTEwMTMyMzA/avf/d69aeb2e-499f-47a8-b0aa-efd0bab5629b.mp4?pathsig=8c953e4f~6yBYIFjY50PbV4q9r_dDaJtWjiFcv71dY2Y3wjQC4n8\u0026r=dXMtd2VzdDE%3D\u0026range=842215-1013230",
+                    "size": 171015
+                },
+                {
+                    "start": 42.042,
+                    "end": 44.5445,
+                    "url": "cmFuZ2U9MTAxMzIzMS0xMDQzMTMw/avf/d69aeb2e-499f-47a8-b0aa-efd0bab5629b.mp4?pathsig=8c953e4f~hwnuENrhYzH1_nUEHCdiGAD5oeKqNiYBfYydzHNNAxA\u0026r=dXMtd2VzdDE%3D\u0026range=1013231-1043130",
+                    "size": 29899
+                }
+            ]
+        }
+    ],
+    "audio": [
+        {
+            "id": "6f638586-e443-481b-bcb9-72885078cc50",
+            "avg_id": "cd3cbf9a",
+            "base_url": "range/prot/",
+            "format": "dash",
+            "mime_type": "audio/mp4",
+            "codecs": "mp4a.40.2",
+            "bitrate": 191000,
+            "avg_bitrate": 191000,
+            "duration": 44.565333333333335,
+            "channels": 2,
+            "sample_rate": 48000,
+            "max_segment_duration": 6,
+            "init_segment": "AAAAIGZ0eXBkYXNoAAAAAGRhc2htcDQybXA0MWlzbzYAAAKmbW9vdgAAAGxtdmhkAAAAAN8z5pzfM+acAAC7gAAAAAAAAQAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAACFpb2RzAAAAABCAgIAQAE///yn//w6AgIAEAAAAAQAAAdV0cmFrAAAAXHRraGQAAAAH3zPmnN8z5pwAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAkZWR0cwAAABxlbHN0AAAAAAAAAAEAIKQAAAAAAAABAAAAAAFNbWRpYQAAACBtZGhkAAAAAN8z5pzfM+acAAC7gAAAAABVxAAAAAAANmhkbHIAAAAAAAAAAHNvdW4AAAAAAAAAAAAAAABMLVNNQVNIIEF1ZGlvIEhhbmRsZXIAAAAA721pbmYAAAAQc21oZAAAAAAAAAAAAAAAJGRpbmYAAAAcZHJlZgAAAAAAAAABAAAADHVybCAAAAABAAAAs3N0YmwAAABnc3RzZAAAAAAAAAABAAAAV21wNGEAAAAAAAAAAQAAAAAAAAAAAAIAEAAAAAC7gAAAAAAAM2VzZHMAAAAAA4CAgCIAAAAEgICAFEAVAAAAAAAAAAAAAAAFgICAAhGQBoCAgAECAAAAEHN0dHMAAAAAAAAAAAAAABBzdHNjAAAAAAAAAAAAAAAUc3RzegAAAAAAAAAAAAAAAAAAABBzdGNvAAAAAAAAAAAAAAA8bXZleAAAABRtZWhkAQAAAAAAAAAAIKQAAAAAIHRyZXgAAAAAAAAAAQAAAAEAAAABAAAAAAABAAA=",
+            "init_segment_url": "",
+            "index_segment": "cmFuZ2U9NzEwLTgzNw/avf/6f638586-e443-481b-bcb9-72885078cc50.mp4?pathsig=8c953e4f~rPJB5XfPHTKDfx4gfj21WZTG-snc5_0fj_Unv3k_lYY\u0026r=dXM%3D\u0026range=710-837",
+            "segments": [
+                {
+                    "start": 0,
+                    "end": 5.994666666666666,
+                    "url": "cmFuZ2U9ODM4LTE0NDI3NA/avf/6f638586-e443-481b-bcb9-72885078cc50.mp4?pathsig=8c953e4f~afXC2TqfhIS7_UNfzut6B1MTKC_YnpQgHAaqCGLJu6k\u0026r=dXM%3D\u0026range=838-144274",
+                    "size": 143436
+                },
+                {
+                    "start": 5.994666666666666,
+                    "end": 11.989333333333333,
+                    "url": "cmFuZ2U9MTQ0Mjc1LTI4NzIzNw/avf/6f638586-e443-481b-bcb9-72885078cc50.mp4?pathsig=8c953e4f~8j6UlHiVpmI0KrtdqUeux3SLZIZZIdEE3Sln3jYTzf4\u0026r=dXM%3D\u0026range=144275-287237",
+                    "size": 142962
+                },
+                {
+                    "start": 11.989333333333333,
+                    "end": 17.984,
+                    "url": "cmFuZ2U9Mjg3MjM4LTQzMDQzNQ/avf/6f638586-e443-481b-bcb9-72885078cc50.mp4?pathsig=8c953e4f~EeUUq04olrRQG4CPyE2x92rLDh4PLTN5IygWtjvwfMQ\u0026r=dXM%3D\u0026range=287238-430435",
+                    "size": 143197
+                },
+                {
+                    "start": 17.984,
+                    "end": 23.978666666666665,
+                    "url": "cmFuZ2U9NDMwNDM2LTU3MzQwNg/avf/6f638586-e443-481b-bcb9-72885078cc50.mp4?pathsig=8c953e4f~FfsGN9cK-mgixKlVHMy6KCLlCRQVQhbgJoU3xxiLkBk\u0026r=dXM%3D\u0026range=430436-573406",
+                    "size": 142970
+                },
+                {
+                    "start": 23.978666666666665,
+                    "end": 29.973333333333333,
+                    "url": "cmFuZ2U9NTczNDA3LTcxNjkxNg/avf/6f638586-e443-481b-bcb9-72885078cc50.mp4?pathsig=8c953e4f~kR1O-q42g3r32pmaTJm3Ye6btC4pOMdqdTeSLuz7Qac\u0026r=dXM%3D\u0026range=573407-716916",
+                    "size": 143509
+                },
+                {
+                    "start": 29.973333333333333,
+                    "end": 35.968,
+                    "url": "cmFuZ2U9NzE2OTE3LTg1OTg1NQ/avf/6f638586-e443-481b-bcb9-72885078cc50.mp4?pathsig=8c953e4f~nKbkHhk9DmreqAJ67s66SGk-wdEJCTFAPV9-hHNvI1Q\u0026r=dXM%3D\u0026range=716917-859855",
+                    "size": 142938
+                },
+                {
+                    "start": 35.968,
+                    "end": 41.962666666666664,
+                    "url": "cmFuZ2U9ODU5ODU2LTEwMDI3NDE/avf/6f638586-e443-481b-bcb9-72885078cc50.mp4?pathsig=8c953e4f~aKKVxUXhZIrkZT2KXMX9TfkABI-q_lMu_k0UNlnH1Mk\u0026r=dXM%3D\u0026range=859856-1002741",
+                    "size": 142885
+                },
+                {
+                    "start": 41.962666666666664,
+                    "end": 44.565333333333335,
+                    "url": "cmFuZ2U9MTAwMjc0Mi0xMDY0NDU5/avf/6f638586-e443-481b-bcb9-72885078cc50.mp4?pathsig=8c953e4f~Tl9cheJKTU5G-N5YaUWfKMgrQhUkHY2bh7ViaFqUR_U\u0026r=dXM%3D\u0026range=1002742-1064459",
+                    "size": 61717
+                }
+            ],
+            "audio_primary": true
+        },
+        {
+            "id": "1373dab4-3926-4063-b2ed-918824411df8",
+            "avg_id": "cd3cbf9a",
+            "base_url": "remux/avf/1373dab4-3926-4063-b2ed-918824411df8/",
+            "format": "mp42",
+            "mime_type": "audio/mp4",
+            "codecs": "mp4a.40.2",
+            "bitrate": 128000,
+            "avg_bitrate": 127000,
+            "duration": 44.565333333333335,
+            "channels": 2,
+            "sample_rate": 48000,
+            "max_segment_duration": 6,
+            "init_segment": "AAAAHGZ0eXBpc281AAACAGlzbzVpc282bXA0MQAAAt1tb292AAAAbG12aGQAAAAAAAAAAAAAAAAAAAPoAAAAAAABAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAB4HRyYWsAAABcdGtoZAAAAAMAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAACRlZHRzAAAAHGVsc3QAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAVhtZGlhAAAAIG1kaGQAAAAAAAAAAAAAAAAAALuAAAAAAFXEAAAAAAAtaGRscgAAAAAAAAAAc291bgAAAAAAAAAAAAAAAFNvdW5kSGFuZGxlcgAAAAEDbWluZgAAABBzbWhkAAAAAAAAAAAAAAAkZGluZgAAABxkcmVmAAAAAAAAAAEAAAAMdXJsIAAAAAEAAADHc3RibAAAAHtzdHNkAAAAAAAAAAEAAABrbXA0YQAAAAAAAAABAAAAAAAAAAAAAgAQAAAAALuAAAAAAAAzZXNkcwAAAAADgICAIgABAASAgIAUQBUAAAAAAem/AAHpvwWAgIACEZAGgICAAQIAAAAUYnRydAAAAAAAAem/AAHpvwAAABBzdHRzAAAAAAAAAAAAAAAQc3RzYwAAAAAAAAAAAAAAFHN0c3oAAAAAAAAAAAAAAAAAAAAQc3RjbwAAAAAAAAAAAAAAKG12ZXgAAAAgdHJleAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAGF1ZHRhAAAAWW1ldGEAAAAAAAAAIWhkbHIAAAAAAAAAAG1kaXJhcHBsAAAAAAAAAAAAAAAALGlsc3QAAAAkqXRvbwAAABxkYXRhAAAAAQAAAABMYXZmNjEuOS4xMDQ=",
+            "init_segment_url": "",
+            "segments": [
+                {
+                    "start": 0,
+                    "end": 6.016,
+                    "url": "segment.m4s?pathsig=8c953e4f~xvWLbx1P2NBVMLg22nwF5xmmtiUUeaOWLpB9ShssS0g\u0026r=dXM%3D\u0026sid=1\u0026st=audio",
+                    "size": 96139
+                },
+                {
+                    "start": 6.016,
+                    "end": 12.010666666666667,
+                    "url": "segment.m4s?pathsig=8c953e4f~xvWLbx1P2NBVMLg22nwF5xmmtiUUeaOWLpB9ShssS0g\u0026r=dXM%3D\u0026sid=2\u0026st=audio",
+                    "size": 95076
+                },
+                {
+                    "start": 12.010666666666667,
+                    "end": 18.026666666666667,
+                    "url": "segment.m4s?pathsig=8c953e4f~xvWLbx1P2NBVMLg22nwF5xmmtiUUeaOWLpB9ShssS0g\u0026r=dXM%3D\u0026sid=3\u0026st=audio",
+                    "size": 95560
+                },
+                {
+                    "start": 18.026666666666667,
+                    "end": 24.021333333333335,
+                    "url": "segment.m4s?pathsig=8c953e4f~xvWLbx1P2NBVMLg22nwF5xmmtiUUeaOWLpB9ShssS0g\u0026r=dXM%3D\u0026sid=4\u0026st=audio",
+                    "size": 95282
+                },
+                {
+                    "start": 24.021333333333335,
+                    "end": 30.037333333333333,
+                    "url": "segment.m4s?pathsig=8c953e4f~xvWLbx1P2NBVMLg22nwF5xmmtiUUeaOWLpB9ShssS0g\u0026r=dXM%3D\u0026sid=5\u0026st=audio",
+                    "size": 95826
+                },
+                {
+                    "start": 30.037333333333333,
+                    "end": 36.032,
+                    "url": "segment.m4s?pathsig=8c953e4f~xvWLbx1P2NBVMLg22nwF5xmmtiUUeaOWLpB9ShssS0g\u0026r=dXM%3D\u0026sid=6\u0026st=audio",
+                    "size": 95041
+                },
+                {
+                    "start": 36.032,
+                    "end": 42.048,
+                    "url": "segment.m4s?pathsig=8c953e4f~xvWLbx1P2NBVMLg22nwF5xmmtiUUeaOWLpB9ShssS0g\u0026r=dXM%3D\u0026sid=7\u0026st=audio",
+                    "size": 95072
+                },
+                {
+                    "start": 42.048,
+                    "end": 44.565333333333335,
+                    "url": "segment.m4s?pathsig=8c953e4f~xvWLbx1P2NBVMLg22nwF5xmmtiUUeaOWLpB9ShssS0g\u0026r=dXM%3D\u0026sid=8\u0026st=audio",
+                    "size": 40088
+                }
+            ],
+            "audio_primary": true
+        },
+        {
+            "id": "1b8a2e32-6d99-417e-b78a-a13403192df7",
+            "avg_id": "cd3cbf9a",
+            "base_url": "range/prot/",
+            "format": "dash",
+            "mime_type": "audio/mp4",
+            "codecs": "opus",
+            "bitrate": 98000,
+            "avg_bitrate": 82000,
+            "duration": 44.5445,
+            "channels": 2,
+            "sample_rate": 48000,
+            "max_segment_duration": 6,
+            "init_segment": "AAAAHGZ0eXBkYXNoAAAAAGRhc2hpc282bXA0MQAAAydtb292AAAAbG12aGQAAAAA3zPmlt8z5pYAALuAAAAAAAABAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAIWlvZHMAAAAAEICAgBAAT////v//DoCAgAQAAAABAAAB2HRyYWsAAABcdGtoZAAAAAPfM+aW3zPmlgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAACRlZHRzAAAAHGVsc3QAAAAAAAAAAQAgoBgAAAE4AAEAAAAAAVBtZGlhAAAAIG1kaGQAAAAA3zPmlt8z5pYAALuAAAAAAFXEAAAAAAAtaGRscgAAAAAAAAAAc291bgAAAAAAAAAAAAAAAFNvdW5kSGFuZGxlcgAAAAD7bWluZgAAABBzbWhkAAAAAAAAAAAAAAAkZGluZgAAABxkcmVmAAAAAAAAAAEAAAAMdXJsIAAAAAEAAAC/c3RibAAAAEdzdHNkAAAAAAAAAAEAAAA3T3B1cwAAAAAAAAABAAAAAAAAAAAAAgAQAAAAALuAAAAAAAATZE9wcwACATgAALuAAAAAAAAAEHN0dHMAAAAAAAAAAAAAABBzdHNjAAAAAAAAAAAAAAAUc3RzegAAAAAAAAAAAAAAAAAAABBzdGNvAAAAAAAAAAAAAAAYc2dwZAEAAAByb2xsAAAAAgAAAAAAAAAUc2JncAAAAAByb2xsAAAAAAAAAH51ZHRhAAAAdm1ldGEAAAAAAAAAPWhkbHIAAAAAAAAAAG1kaXIAAAAAAAAAAAAAAABMLVNNQVNIIGlUdW5lcyBNZWRpYSBIYW5kbGVyAAAAAC1pbHN0AAAAJal0b28AAAAdZGF0YQAAAAEAAAAATGF2ZjU5LjI1LjEwMAAAADxtdmV4AAAAFG1laGQBAAAAAAAAAAAgoBgAAAAgdHJleAAAAAAAAAABAAAAAQAAAAEAAAAAAAEAAA==",
+            "init_segment_url": "",
+            "index_segment": "cmFuZ2U9ODM1LTk2Mg/avf/1b8a2e32-6d99-417e-b78a-a13403192df7.mp4?pathsig=8c953e4f~R2wRUOEYXJTuW_tg_0L_-10ZSbOQ7VGhaXpGxz7y-6U\u0026r=dXM%3D\u0026range=835-962",
+            "segments": [
+                {
+                    "start": 0,
+                    "end": 5.9935,
+                    "url": "cmFuZ2U9OTYzLTQ0NzE5/avf/1b8a2e32-6d99-417e-b78a-a13403192df7.mp4?pathsig=8c953e4f~CxuauhGJPM10PLMBWZ48xy-G5suG0HpY-xi_T5nbwng\u0026r=dXM%3D\u0026range=963-44719",
+                    "size": 43756
+                },
+                {
+                    "start": 5.9935,
+                    "end": 11.9935,
+                    "url": "cmFuZ2U9NDQ3MjAtMTE4MzI2/avf/1b8a2e32-6d99-417e-b78a-a13403192df7.mp4?pathsig=8c953e4f~GXmQh7geCEn57wyBjT6u7IKTGAfzpaRmVb1IiHMdXQQ\u0026r=dXM%3D\u0026range=44720-118326",
+                    "size": 73606
+                },
+                {
+                    "start": 11.9935,
+                    "end": 17.9935,
+                    "url": "cmFuZ2U9MTE4MzI3LTE5MTk0NA/avf/1b8a2e32-6d99-417e-b78a-a13403192df7.mp4?pathsig=8c953e4f~1FVZq9u7VVMvKCInkwfL79Dm15W3POhgkTcO5uhwty0\u0026r=dXM%3D\u0026range=118327-191944",
+                    "size": 73617
+                },
+                {
+                    "start": 17.9935,
+                    "end": 23.9935,
+                    "url": "cmFuZ2U9MTkxOTQ1LTI2NTgzOA/avf/1b8a2e32-6d99-417e-b78a-a13403192df7.mp4?pathsig=8c953e4f~wMLuSejVfAJWOxuTPD62Z1NNfjDkzec54i19X8H_qHI\u0026r=dXM%3D\u0026range=191945-265838",
+                    "size": 73893
+                },
+                {
+                    "start": 23.9935,
+                    "end": 29.9935,
+                    "url": "cmFuZ2U9MjY1ODM5LTMzOTI1NQ/avf/1b8a2e32-6d99-417e-b78a-a13403192df7.mp4?pathsig=8c953e4f~UchvR_Va1F1cvEVHRGNXfBfpF7u4ah72V_6YZhZRMFQ\u0026r=dXM%3D\u0026range=265839-339255",
+                    "size": 73416
+                },
+                {
+                    "start": 29.9935,
+                    "end": 35.9935,
+                    "url": "cmFuZ2U9MzM5MjU2LTQxMzAzNg/avf/1b8a2e32-6d99-417e-b78a-a13403192df7.mp4?pathsig=8c953e4f~rAoTTXmQCLS1IafPML5nQfdSTwARzfElEtQpiHSgqS0\u0026r=dXM%3D\u0026range=339256-413036",
+                    "size": 73780
+                },
+                {
+                    "start": 35.9935,
+                    "end": 41.9935,
+                    "url": "cmFuZ2U9NDEzMDM3LTQ4NjU2MA/avf/1b8a2e32-6d99-417e-b78a-a13403192df7.mp4?pathsig=8c953e4f~FxhaoVBhgVyDxUEcm64IPHfPRltTqoIXCjRhkCpMo2o\u0026r=dXM%3D\u0026range=413037-486560",
+                    "size": 73523
+                },
+                {
+                    "start": 41.9935,
+                    "end": 44.5445,
+                    "url": "cmFuZ2U9NDg2NTYxLTQ4ODY1MQ/avf/1b8a2e32-6d99-417e-b78a-a13403192df7.mp4?pathsig=8c953e4f~CVj2VLGXbktRRtnh5xHh4Q26Ii_QLvUrl3WLNGScrT8\u0026r=dXM%3D\u0026range=486561-488651",
+                    "size": 2090
+                }
+            ],
+            "audio_primary": true
+        },
+        {
+            "id": "c42f71e1-b7d1-40e9-b8c4-8888d38c3fa2",
+            "avg_id": "cd3cbf9a",
+            "base_url": "range/prot/",
+            "format": "dash",
+            "mime_type": "audio/mp4",
+            "codecs": "opus",
+            "bitrate": 66000,
+            "avg_bitrate": 55000,
+            "duration": 44.5445,
+            "channels": 2,
+            "sample_rate": 48000,
+            "max_segment_duration": 6,
+            "init_segment": "AAAAHGZ0eXBkYXNoAAAAAGRhc2hpc282bXA0MQAAAydtb292AAAAbG12aGQAAAAA3zPmod8z5qEAALuAAAAAAAABAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAIWlvZHMAAAAAEICAgBAAT////v//DoCAgAQAAAABAAAB2HRyYWsAAABcdGtoZAAAAAPfM+ah3zPmoQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAACRlZHRzAAAAHGVsc3QAAAAAAAAAAQAgoBgAAAE4AAEAAAAAAVBtZGlhAAAAIG1kaGQAAAAA3zPmod8z5qEAALuAAAAAAFXEAAAAAAAtaGRscgAAAAAAAAAAc291bgAAAAAAAAAAAAAAAFNvdW5kSGFuZGxlcgAAAAD7bWluZgAAABBzbWhkAAAAAAAAAAAAAAAkZGluZgAAABxkcmVmAAAAAAAAAAEAAAAMdXJsIAAAAAEAAAC/c3RibAAAAEdzdHNkAAAAAAAAAAEAAAA3T3B1cwAAAAAAAAABAAAAAAAAAAAAAgAQAAAAALuAAAAAAAATZE9wcwACATgAALuAAAAAAAAAEHN0dHMAAAAAAAAAAAAAABBzdHNjAAAAAAAAAAAAAAAUc3RzegAAAAAAAAAAAAAAAAAAABBzdGNvAAAAAAAAAAAAAAAYc2dwZAEAAAByb2xsAAAAAgAAAAAAAAAUc2JncAAAAAByb2xsAAAAAAAAAH51ZHRhAAAAdm1ldGEAAAAAAAAAPWhkbHIAAAAAAAAAAG1kaXIAAAAAAAAAAAAAAABMLVNNQVNIIGlUdW5lcyBNZWRpYSBIYW5kbGVyAAAAAC1pbHN0AAAAJal0b28AAAAdZGF0YQAAAAEAAAAATGF2ZjU5LjI1LjEwMAAAADxtdmV4AAAAFG1laGQBAAAAAAAAAAAgoBgAAAAgdHJleAAAAAAAAAABAAAAAQAAAAEAAAAAAAEAAA==",
+            "init_segment_url": "",
+            "index_segment": "cmFuZ2U9ODM1LTk2Mg/avf/c42f71e1-b7d1-40e9-b8c4-8888d38c3fa2.mp4?pathsig=8c953e4f~CftVtUr-kPyS1lFiz4KqCdCbzALWOcuPYQRMxyK0oeg\u0026r=dXM%3D\u0026range=835-962",
+            "segments": [
+                {
+                    "start": 0,
+                    "end": 5.9935,
+                    "url": "cmFuZ2U9OTYzLTMwODI1/avf/c42f71e1-b7d1-40e9-b8c4-8888d38c3fa2.mp4?pathsig=8c953e4f~NiEWXvSiyhCcPKsQHrC9Dni3YjFwIyrFMozMyfHo1cI\u0026r=dXM%3D\u0026range=963-30825",
+                    "size": 29862
+                },
+                {
+                    "start": 5.9935,
+                    "end": 11.9935,
+                    "url": "cmFuZ2U9MzA4MjYtODA0NTM/avf/c42f71e1-b7d1-40e9-b8c4-8888d38c3fa2.mp4?pathsig=8c953e4f~35JisXB_UbJUNGG710w_9FtL58ePJIRZ1CPyL1Nv6CQ\u0026r=dXM%3D\u0026range=30826-80453",
+                    "size": 49627
+                },
+                {
+                    "start": 11.9935,
+                    "end": 17.9935,
+                    "url": "cmFuZ2U9ODA0NTQtMTMwMDI0/avf/c42f71e1-b7d1-40e9-b8c4-8888d38c3fa2.mp4?pathsig=8c953e4f~IQ9GTUSGtbVRepePi0ZrSAYj1erQHCoPkOOwmlL8uBQ\u0026r=dXM%3D\u0026range=80454-130024",
+                    "size": 49570
+                },
+                {
+                    "start": 17.9935,
+                    "end": 23.9935,
+                    "url": "cmFuZ2U9MTMwMDI1LTE3OTgzOA/avf/c42f71e1-b7d1-40e9-b8c4-8888d38c3fa2.mp4?pathsig=8c953e4f~DTLu4OgqIAU6wN9eUWbbwrnucaUi6eDLIgZJToFGGR4\u0026r=dXM%3D\u0026range=130025-179838",
+                    "size": 49813
+                },
+                {
+                    "start": 23.9935,
+                    "end": 29.9935,
+                    "url": "cmFuZ2U9MTc5ODM5LTIyOTMzMg/avf/c42f71e1-b7d1-40e9-b8c4-8888d38c3fa2.mp4?pathsig=8c953e4f~C_M5ucQqOTZSrk_7nvL2xqf0e8KrAXNmeQVIvBPzyos\u0026r=dXM%3D\u0026range=179839-229332",
+                    "size": 49493
+                },
+                {
+                    "start": 29.9935,
+                    "end": 35.9935,
+                    "url": "cmFuZ2U9MjI5MzMzLTI3OTEwOQ/avf/c42f71e1-b7d1-40e9-b8c4-8888d38c3fa2.mp4?pathsig=8c953e4f~U34yyOEAPB4uTcPp69K6U-WkvpAgNStJUUDoDIaUPfc\u0026r=dXM%3D\u0026range=229333-279109",
+                    "size": 49776
+                },
+                {
+                    "start": 35.9935,
+                    "end": 41.9935,
+                    "url": "cmFuZ2U9Mjc5MTEwLTMyODY0MA/avf/c42f71e1-b7d1-40e9-b8c4-8888d38c3fa2.mp4?pathsig=8c953e4f~m9bgK2vN-Yep9QNFTjDYrELsgpln3yhtDB3QKAFQ1Uo\u0026r=dXM%3D\u0026range=279110-328640",
+                    "size": 49530
+                },
+                {
+                    "start": 41.9935,
+                    "end": 44.5445,
+                    "url": "cmFuZ2U9MzI4NjQxLTMzMDU3Mw/avf/c42f71e1-b7d1-40e9-b8c4-8888d38c3fa2.mp4?pathsig=8c953e4f~2bE8xXTG60HPeblXw4JIAI2kH2PmM6Ih-uh5JHzSIp4\u0026r=dXM%3D\u0026range=328641-330573",
+                    "size": 1932
+                }
+            ],
+            "audio_primary": true
+        }
+    ]
+}

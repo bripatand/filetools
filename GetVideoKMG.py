@@ -83,6 +83,7 @@ def write_chunks(outfilepath, firstbinarychunk, allchunks, baseurl, hds):
             for chunk in allchunks:
 
                 url = baseurl + chunk['url']
+                logger.debug(f"Chunk {index_chunk} URL {url}")
 
                 resp = requests.get(url, headers=hds)
 
@@ -90,6 +91,7 @@ def write_chunks(outfilepath, firstbinarychunk, allchunks, baseurl, hds):
                     logger.debug(f"Chunk {index_chunk} was successfully downloaded")
                 else:
                     logger.error(f"Chunk {index_chunk} failed to download with status code: {resp.status_code}")
+                    logger.error(f"Chunk {index_chunk} URL {url}")
                     return False
                 
                 chunk_binary = resp.content
@@ -137,6 +139,7 @@ def get_video(outputfilepath, videourl, hds):
         logger.info(f"Playlist was successfully downloaded")
     else:
         logger.error(f"Playlist failed to download with status code: {resp.status_code}")
+        logger.error(f"Playlist URL {videourl}")
         return False
 
     playlist = json.loads(resp.content.decode("utf-8"))
@@ -146,8 +149,14 @@ def get_video(outputfilepath, videourl, hds):
     videospec = playlist['video']
     audiospec = playlist['audio']
 
+    logger.debug(f"Stub URL: {stub_url}")
+
+    logger.debug(f"Base URL: {baseurl}")
+
     # Base URL used to build the URL for each video and audio chunks
-    chunk_base_url = urljoin(stub_url , baseurl)
+    video_base_url = urljoin(stub_url , baseurl)
+
+    logger.debug(f"Video base URL: {video_base_url}")
 
     videoindex = 0
     videofound = False
@@ -171,6 +180,16 @@ def get_video(outputfilepath, videourl, hds):
 
     # Initial segment of the mp4 file is in the playlist file
     initvideosegment = videospec[videoindex]['init_segment']
+
+    # Get the chosen video stream based URL
+    video_stream_base_url = videospec[videoindex]['base_url']
+    
+    logger.debug(f"Chosen video stream base URL: {video_stream_base_url}")
+
+    # URL used to build the URL for each video chunks
+    chunk_base_url = urljoin(video_base_url , video_stream_base_url)
+    
+    logger.debug(f"Video chunk base URL: {chunk_base_url}")
 
     # Decode Base64 string into binary data
     init_binary = base64.b64decode(initvideosegment)
@@ -209,6 +228,16 @@ def get_video(outputfilepath, videourl, hds):
 
     # Initial segment of the mp4 file is in the playlist file
     initaudiosegment = audiospec[bestindex]['init_segment']
+
+    # Get the chosen audio stream based URL
+    audio_stream_base_url = audiospec[bestindex]['base_url']
+        
+    logger.debug(f"Chosen audio stream base URL: {audio_stream_base_url}")
+
+    # Chunk URL used to build the URL for each audio chunks
+    chunk_base_url = urljoin(video_base_url , audio_stream_base_url)
+
+    logger.debug(f"Audio chunk base URL: {chunk_base_url}")
 
     # Decode Base64 string into binary data
     init_binary = base64.b64decode(initaudiosegment)
