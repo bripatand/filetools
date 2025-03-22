@@ -28,9 +28,6 @@ def main(args):
 	else:
 		destinationfolder = sourcefolder
 
-	destinationfolder = '/mnt/d/Sports/Fighting/Kravmaga/KravMagaGlobal/KravMagaGlobalEN/KravMagaGlobalUniversity/NewCurriculum/CheckpointsPics'
-	
-
 	files = glob.glob(globarg, recursive = True)
 
 	for file in files:
