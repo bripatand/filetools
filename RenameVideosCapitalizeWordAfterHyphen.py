@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+#Transform "filename KMG_G109_Defenses-headlocks-chokes-ground.mp4" into "KMG_G109_Defenses-Headlocks-Chokes-Ground.mp4"
+
 
 import os
 from pathlib import Path, PurePath
@@ -12,18 +14,13 @@ def capitalize_after_hyphen(s):
 
 def main(args):
 
-	sourcefolder = '/mnt/d/Sports/Fighting/Kravmaga/KravMagaGlobal/KravMagaGlobalEN/KravMagaGlobalUniversity/NewCurriculum/Checkpoints/Practitioner'
+	sourcefolder = '/mnt/d/Sports/Fighting/Kravmaga/KravMagaGlobal/KravMagaGlobalEN/KravMagaGlobalUniversity/NewCurriculum/Checkpoints/Graduate'
 	#sourcefolder = args.input_dir
 	
 	if args.filter:
 		filter = args.filter
 	else:
 		filter = '*.mp4'
-
-	if args.position:
-		position = args.position
-	else:
-		position = '0'
 
 	globarg = sourcefolder + '/**/' + filter
 
