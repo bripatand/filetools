@@ -8,13 +8,16 @@ import glob
 import argparse
 import re
 
-def capitalize_after_hyphen(s):
-    return re.sub(r'-(\w)', lambda match: '-' + match.group(1).upper(), s)
+CHAR2INSERT = ' '
+
+def insert_spaces(name, char):
+    modified_name = re.sub(r'(?<!^)([A-Z])', fr'{char}\1', name)  # Insert specified character before uppercase letters
+    return modified_name
 
 
 def main(args):
 
-	sourcefolder = '/mnt/d/Sports/Fighting/Kravmaga/KravMagaGlobal/KravMagaGlobalEN/KravMagaGlobalUniversity/NewCurriculum/Checkpoints/Graduate'
+	sourcefolder = '/mnt/c/Users/pb/Videos/Sport/Kravmaga/KravMagaGlobalFR/P3Prog2022'
 	#sourcefolder = args.input_dir
 	
 	if args.filter:
@@ -49,7 +52,7 @@ def main(args):
 		else:
 			suffix = ''
 
-		modified_stem = capitalize_after_hyphen(stem)
+		modified_stem = insert_spaces(stem, CHAR2INSERT)
 
 		#print(f"modified stem {modified_stem}")
 
@@ -59,14 +62,17 @@ def main(args):
 		destpath = str(deststem) + ext
 
 		print(f"-----------------------------------------------------------------------------------")
-		print(f"Origin '{stem}'")
-		print(f"Rename '{modified_stem}'")
+		print(f"Origin stem '{stem}'")
+		print(f"Rename stem '{modified_stem}'")
+		print(f"Origin path'{filepath}'")
+		print(f"Rename path'{destpath}'")
 
 		if stem != modified_stem:
 			nb_files_renamed += 1	
 			print("Renaming file")
 			if(not args.test):
 				os.rename(filepath, destpath)
+
 		else:
 			nb_files_unchanged += 1
 			print("Skipping file")			
@@ -83,6 +89,7 @@ if __name__ == "__main__":
 
 	parser = argparse.ArgumentParser()
 	parser.add_argument("input_dir", help="Location of the input folder")
+	parser.add_argument("-p", "--position", help="Position could be a number of second or hh:mm:ss")
 	parser.add_argument("-f", "--filter", help="pattern to filter files (default '*.mp4')")
 	parser.add_argument("-s", "--suffix", help="Suffix added to output filename")
 	parser.add_argument("-t", "--test", action='store_true', help="just testing")
