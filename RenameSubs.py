@@ -7,16 +7,18 @@ from pathlib import Path
 # You must map NUC drive: 
 # sudo apt update; sudo apt install cifs-utils
 # mkdir /mnt/nuc
-# sudo mount -t cifs -o user=web,pass=abs0lute //NUC/samba/MEDIA /mnt/nuc
-# Must run the command "sudo /usr/bin/python3.8 /home/web/dev/filetools/RenameSubs.py"
+# sudo mount -t cifs -o user=web,pass=abs0lute //192.168.1.170/samba/MEDIA /mnt/nuc
+# Must run the command "sudo /usr/bin/python /home/web/dev/filetools/RenameSubs.py"
 # to work around permissions
 
-real = 1
+real = 0
 
-rootpath = '/mnt/nuc/Series/Boy Swallows Universe Season 1/Subs'
+rootpath = '/mnt/nuc/Series/Will Trent Season 1/Subs'
 
-file2primaryfind = '2_eng,English (SDH).srt'
+file2primaryfind = '-PROTON.SDH.eng.srt'
 file2secondaryfind = ''
+
+print("Search for pattern:'" + file2primaryfind + "'")
 
 matchPrimary = re.compile(file2primaryfind)
 
@@ -37,7 +39,7 @@ for path,dirs,files in os.walk(rootpath):
 			fileSource = os.path.join(path, dir, file2secondaryfind)
 
 		if os.path.exists(fileSource):
-			#print("found file:" + fileSource)
+			print("found file:" + fileSource)
 
 			name, ext = os.path.splitext(fileSource)
 
