@@ -6,12 +6,22 @@
     "configurations": [
 
         {
-            "name": "Python: Download mp4 video file from KMG",
+            "name": "Download mp4 video file from KMG",
             "type": "debugpy",
             "request": "launch",
             "program": "./GetVideoKMG.py",
             "console": "integratedTerminal",
             "args": ["./headers.json", "./GIC.csv", ".", "-l", "KMG.log", "-v", "D"],
+            "justMyCode": false
+        },
+        {
+            "name": "Compare files content in 2 folders",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./CompareFilesInFolders.py",
+            "console": "integratedTerminal",
+            "args": ["/mnt/d/Sports/Fighting/Kravmaga/KravMagaGlobal/KravMagaGlobalEN/KravMagaGlobalUniversity/NewCurriculum/Checkpoints", 
+            "/mnt/d/Sports/Fighting/Kravmaga/KravMagaGlobal/KravMagaGlobalEN/KravMagaGlobalUniversity/NewCurriculum/CheckpointsNEW", "--csv", "./Checkpoints.csv"],
             "justMyCode": false
         }
     ]
