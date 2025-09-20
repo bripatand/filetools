@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 requests = "*"
 openpyxl = "*"
+yt-dlp = "*"
 
 [dev-packages]
 
