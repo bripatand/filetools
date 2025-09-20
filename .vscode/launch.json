@@ -23,6 +23,15 @@
             "args": ["/mnt/d/Sports/Fighting/Kravmaga/KravMagaGlobal/KravMagaGlobalEN/KravMagaGlobalUniversity/NewCurriculum/Checkpoints", 
             "/mnt/d/Sports/Fighting/Kravmaga/KravMagaGlobal/KravMagaGlobalEN/KravMagaGlobalUniversity/NewCurriculum/CheckpointsNEW", "--csv", "./Checkpoints.csv"],
             "justMyCode": false
+        },
+        {
+            "name": "Split a video file using timestamp in csv",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./SplitVideo.py",
+            "console": "integratedTerminal",
+            "args": ["GeorgesSaintPierreMMAFundamentals2.mp4","./mma2.csv", "-o", "splitout"],
+            "justMyCode": false
         }
     ]
 }
