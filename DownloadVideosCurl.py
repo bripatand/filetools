@@ -188,62 +188,6 @@ def extract_playlist_items(html: str):
     raise ValueError("playlist.items not found in any <script> block.")
 
 
-
-def extract_playlist_items_AI(html: str):
-    """
-    Parse a web page with AI to extract relevant json.
-    """
-    # Initialize client
-    print(f"Parsing HTML with OpenAI API")
-    client = OpenAI(api_key="API_KEY")
-    
-    # Send the request
-    response = client.chat.completions.create(
-        model="gpt-5",  # Replace with the latest available GPT-5 (or other) model
-        messages=[
-            {
-                "role": "system",
-                "content": "You are a helpful assistant that extracts JSON data from HTML."
-            },
-            {
-                "role": "user",
-                "content": (
-                    "Extract in JSON format from the following HTML the content of the variable 'playlist.items' in a <script> block:\n\n" + html
-                )
-            }
-        ],
-        temperature=0
-    )
-
-    # Parse JSON from model's output
-    # Assuming the model returns pure JSON in its message content
-    json_text = response.choices[0].message["content"]
-
-    result = json.loads(json_text)
-
-    return result
-
-
-# Insert a string before the last segment of a URL path
-def insert_before_last_path_segment(url, insert_str):
-    # Parse the URL
-    parsed = urlparse(url)
-    
-    # Split the path into segments, ignoring leading/trailing slashes
-    path_parts = parsed.path.strip("/").split("/")
-    
-    if len(path_parts) < 1:
-        return url  # Nothing to insert before
-    
-    # Insert before the last segment
-    path_parts.insert(-1, insert_str)
-    
-    # Rebuild the path
-    new_path = "/" + "/".join(path_parts)
-    
-    # Reconstruct the full URL
-    return urlunparse(parsed._replace(path=new_path))
-
 # Replace the last segment of the path in a URL with `new_segment`
 def replace_last_path_segment(url: str, new_segment: str):
 
@@ -259,6 +203,37 @@ def replace_last_path_segment(url: str, new_segment: str):
     parts[2] = "/".join(path_parts)
     
     return urlunparse(parts)
+
+#Replace special character in string with underscore
+def replace_special_characters(s: str) -> str:
+    return re.sub(r"[-–—/\\()\[\]#,°'\" ]", '_', s)
+
+#Replace multiple underscore character with single underscore. Must be called after replace_special_characters
+def collapse_underscores(s: str) -> str:
+    return re.sub(r'_+', '_', s)
+
+# Replace dot unless it is preceded by a digit AND followed by a digit
+def replace_dot(s: str) -> str:
+    def replacer(m):
+        start = m.start()
+        before = s[start - 1] if start > 0 else ''
+        after = s[start + 1] if start + 1 < len(s) else ''
+        if before.isdigit() and after.isdigit():
+            return '.'
+        return '_'
+    return re.sub(r'\.', replacer, s)
+
+# Capitalize the first letter after an underscore
+# Must be called after replace_special_characters and collapse_underscores. 
+def capitalize_after_underscore(s: str) -> str:
+    return re.sub(r'_([a-z])', lambda m: '_' + m.group(1).upper(), s)
+
+
+def remove_trailing_underscore(s: str) -> str:
+    return s.rstrip('_')
+
+def replace_leading_underscore(s: str) -> str:
+    return re.sub(r'^_+', '#', s)
 
 
 # This script reads a curl command from a file, extracts the video URLs,
@@ -316,8 +291,12 @@ def main(args):
             playlist_url = item['config']['src']
 
             # generate video file name
-            video_file = video_title.replace(' – ','_')
-            video_file = video_file.replace(' ','_')
+            video_file = replace_special_characters(video_title)
+            video_file = collapse_underscores(video_file)
+            video_file = replace_dot(video_file)
+            video_file = capitalize_after_underscore(video_file)
+            video_file = remove_trailing_underscore(video_file)
+            video_file = replace_leading_underscore(video_file)
             # generate video file name
             video_file = OUTPUT_FILE_PATTERN.format(video_file)
 

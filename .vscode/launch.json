@@ -19,7 +19,7 @@
             "request": "launch",
             "program": "./DownloadVideosCurl.py",
             "console": "integratedTerminal",
-            "args": ["./curl.txt"],
+            "args": ["./curlP2.txt", "-t"],
             "justMyCode": false
         },
         {
