@@ -206,7 +206,7 @@ def replace_last_path_segment(url: str, new_segment: str):
 
 #Replace special character in string with underscore
 def replace_special_characters(s: str) -> str:
-    return re.sub(r"[-–—/\\()\[\]#,°'\" ]", '_', s)
+    return re.sub(r"[-–—+´`/\\()\[\]#,°'\" ]", '_', s)
 
 #Replace multiple underscore character with single underscore. Must be called after replace_special_characters
 def collapse_underscores(s: str) -> str:
