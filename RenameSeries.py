@@ -1,13 +1,19 @@
 import os
 import re
+from wslpath import wslpath
 
 real = 1
 
-rootpath = 'N:\MEDIA\Series\The Tunnel Season 3'
+rootpath = wslpath(r"D:\TEMP\1883.S01.1080p.BluRay.x265[eztv.re]")
 
-suffix2find = 'The.Man.in.the.High.Castle.S02E'
+# must escape ( and ) for regular expression
+suffix2find = '1883 \(2021\) - S01E'
 
-suffix2replace = 'MC.2'
+# suffix2insert = suffix2find
+
+suffix2insert = '1883 (2021) - S01E'
+
+suffix2replace = '1883.S01E'
 
 digits = '[01][0-9]'
 
@@ -17,6 +23,8 @@ matchDigit = re.compile(digits)
 for path,dirs,files in os.walk(rootpath):
 
 	for filename in files:
+
+		#print ('File ' + filename)
 		
 		#f = os.path.join(path,filename)
 		
@@ -26,7 +34,7 @@ for path,dirs,files in os.walk(rootpath):
 		
 		if found:
 	
-			pos = len(suffix2find)
+			pos = len(suffix2insert)
 
 			newfilename = suffix2replace + filename[pos:pos+2] + ext
 							
